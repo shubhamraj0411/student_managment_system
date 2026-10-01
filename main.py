@@ -39,6 +39,11 @@ def display_all_student():
     else:
         print("No students found!")
 
+def search_student(name):
+    if name in student_grades:
+        print(f"{name} yes this student is in our school")
+    else:
+        print("student name not found")
 
 # Main program
 def main():
@@ -48,7 +53,8 @@ def main():
         print("2. Update student")
         print("3. Delete student")
         print("4. View students")
-        print("5. Exit")
+        print("5. search student")
+        print("6. Exit")
 
         choice = int(input("Enter your choice = "))
 
@@ -70,6 +76,10 @@ def main():
             display_all_student()
 
         elif choice == 5:
+            name = input("Enter student name = ")
+            search_student(name)
+
+        elif choice == 6:
             print("Closing the program...")
             break
 
