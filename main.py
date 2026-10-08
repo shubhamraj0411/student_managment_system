@@ -86,7 +86,6 @@ def main():
         else:
             print("Invalid choice!")
 
-# we can add more feature to this code so till now this is the code
-# it can do more things i am adding more feature after some time
+
 #just wait for some duration
 main()
