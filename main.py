@@ -87,5 +87,4 @@ def main():
             print("Invalid choice!")
 
 
-#just wait for some duration
 main()
