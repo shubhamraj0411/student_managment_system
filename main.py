@@ -88,6 +88,6 @@ def main():
 
 
 main()
-#we can more features to it
-#i can do also better
-#you can also suggest me the laptop
+
+
+#you can suggest also 
